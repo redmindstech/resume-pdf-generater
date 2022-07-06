@@ -1,0 +1,19 @@
+@import '../utilities/variables.scss';
+
+.form-button{
+	padding: 1.2rem 0;
+  text-align: center;
+  width: 90%;
+  
+	button{
+		color: $title_color_dark_theme1;
+		width: 80%;
+		max-width: 119px;
+		height: 2rem;
+		background-color: $button_color;
+		border: none;
+		border-radius:15px;
+		box-shadow: $button_box_shadow;
+		cursor: pointer;
+	} 
+}

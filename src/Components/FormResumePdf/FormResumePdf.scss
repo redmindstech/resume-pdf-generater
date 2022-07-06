@@ -1,0 +1,41 @@
+@import "../utilities/variables.scss";
+
+
+.resume-form{
+	width: 90%;
+	margin: 1rem auto;
+	padding: 1rem 0;
+	box-shadow: $form_box_shadow;
+	border-radius: 15px;
+
+	.resume-form-container{
+		width: 90%;
+		margin: 0 auto;
+
+		.profile-span{
+			margin: 1rem;	
+			span{
+				display: block;
+			}
+		}
+
+
+		.profile-input{
+			width: 90%;
+			height: 2rem;
+			border-radius: 20px;
+			border: none;
+		}
+		input{
+			text-align:center;
+			background-color: $background_dark_theme2;
+			box-shadow: $input_box_shadow;
+			color:$title_color_dark_theme4;
+		}
+		input:focus{
+			outline: none;
+			box-shadow: $input_box_shadow;
+			color:$title_color_dark_theme4;
+		}
+	}
+}
