@@ -67,7 +67,7 @@ const ProfilePdf: React.FC<ProfilePdfProp> = ({profile}: ProfilePdfProp) => {
                             placeholder="coolportfolio.com/johnsmith"
                         />
                     </label>
-                    <ButtonForm title="submit" />
+                   <ButtonForm title="submit" />
                 </form>
             </div>
         </div>

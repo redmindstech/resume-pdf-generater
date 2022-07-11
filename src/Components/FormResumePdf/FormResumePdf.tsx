@@ -64,7 +64,7 @@ function FormResumePdf() {
             />
             <EducationPdf education={state.education}/>
             <ResumeOptions
-                title="Work"
+                title="Experience"
                 onToggle={() => dispatch({ type: types.WORK, value: state.work })}
             />
             <WorkPdf work={state.work}/>
